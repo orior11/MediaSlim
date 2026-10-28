@@ -75,7 +75,7 @@ public struct EligibilityPolicy: Sendable {
     }
 
     /// Frame rate assumed when the real rate is unknown at scan time.
-    static let assumedFrameRate = 30.0
+    public static let assumedFrameRate = 30.0
 
     static let supportedPhotoTypes: Set<String> = [
         "public.heic", "public.heif", "public.jpeg", "public.png",

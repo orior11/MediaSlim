@@ -135,7 +135,8 @@ public struct VideoCompressor: Sendable {
         var otherBitrate = 0.0
         for kind in [AVMediaType.audio, .metadata] {
             for other in try await asset.loadTracks(withMediaType: kind) {
-                otherBitrate += Double(try await other.load(.estimatedDataRate))
+                let rate = try await other.load(.estimatedDataRate)
+                otherBitrate += Double(rate)
             }
         }
 
