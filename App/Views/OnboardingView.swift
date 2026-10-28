@@ -20,7 +20,7 @@ struct OnboardingView: View {
                         .accessibilityAddTraits(.isHeader)
                     Text("MediaSlim re-saves your photos and videos more efficiently. They look the same and take about half the space.")
                         .font(.body)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                 }
 
                 VStack(alignment: .leading, spacing: 20) {
@@ -63,7 +63,7 @@ struct OnboardingView: View {
 
                 Text("MediaSlim asks for full access because replacing a file means reading the original and then deleting it. You can also share only some items.")
                     .font(.footnote)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Color.secondaryText)
             }
             .padding(24)
         }
@@ -87,7 +87,7 @@ private struct Point: View {
                 Text(title).font(.headline)
                 Text(detail)
                     .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Color.secondaryText)
                     .fixedSize(horizontal: false, vertical: true)
             }
         }

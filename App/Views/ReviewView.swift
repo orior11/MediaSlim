@@ -64,10 +64,10 @@ struct ReviewView: View {
                     .accessibilityIdentifier("review.estimate")
                     Text("\(report.photoCount) photos and \(report.videoCount) videos, \(Formatters.bytes(report.eligibleBytes)) in total.")
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                     Text("The real result is measured for every file. Anything that doesn't pass the quality check is left untouched.")
                         .font(.footnote)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                 }
 
                 section(title: "Quality") {
@@ -120,7 +120,7 @@ struct ReviewView: View {
                         }
                     }
                         .font(.footnote)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                         .frame(maxWidth: .infinity)
                         .multilineTextAlignment(.center)
                 }
@@ -146,7 +146,7 @@ struct ReviewView: View {
                         let reason = entry.key, count = entry.value
                         HStack(alignment: .top, spacing: 12) {
                             Image(systemName: reason.systemImage)
-                                .foregroundStyle(.secondary)
+                                .foregroundStyle(Color.secondaryText)
                                 .frame(width: 24)
                                 .accessibilityHidden(true)
                             VStack(alignment: .leading, spacing: 2) {
@@ -157,7 +157,7 @@ struct ReviewView: View {
                                 }
                                 Text(reason.explanation)
                                     .font(.footnote)
-                                    .foregroundStyle(.secondary)
+                                    .foregroundStyle(Color.secondaryText)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
                         }

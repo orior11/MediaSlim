@@ -18,7 +18,7 @@ struct HistoryView: View {
                         if run.skipped + run.failed > 0 {
                             Text("\(run.skipped + run.failed) left as they were")
                                 .font(.footnote)
-                                .foregroundStyle(.secondary)
+                                .foregroundStyle(Color.secondaryText)
                         }
                     }
                     .padding(.vertical, 4)

@@ -38,7 +38,7 @@ struct ProcessingView: View {
                         .monospacedDigit()
                     Text("\(Formatters.bytes(progress.bytesSaved)) saved so far")
                         .font(.headline)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                 }
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel(Text("Progress"))
@@ -82,7 +82,7 @@ struct ProcessingView: View {
 
                 Text("Files are replaced only after the smaller copy is saved and checked.")
                     .font(.footnote)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Color.secondaryText)
                     .multilineTextAlignment(.center)
             }
             .padding(16)
@@ -130,7 +130,7 @@ private struct CurrentItemRow: View {
                 } else {
                     Image(systemName: item.kind == .photo ? "photo" : "video")
                         .font(.title2)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background(.quaternary)
                 }
@@ -145,7 +145,7 @@ private struct CurrentItemRow: View {
                 if let bytes = item.byteSize {
                     Text(Formatters.bytes(bytes))
                         .font(.footnote)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                 }
             }
             Spacer(minLength: 0)

@@ -56,7 +56,7 @@ struct StatTile: View {
         VStack(alignment: .leading, spacing: 4) {
             Label(title, systemImage: systemImage)
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Color.secondaryText)
             Text(value)
                 .font(.title2.weight(.semibold))
                 .monospacedDigit()
@@ -80,7 +80,7 @@ struct ChoiceRow: View {
             HStack(alignment: .top, spacing: 12) {
                 Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
                     .font(.title3)
-                    .foregroundStyle(isSelected ? Color.accentColor : .secondary)
+                    .foregroundStyle(isSelected ? Color.accentColor : Color.secondaryText)
                     .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 4) {
                     HStack(spacing: 8) {
@@ -95,7 +95,7 @@ struct ChoiceRow: View {
                     }
                     Text(detail)
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 Spacer(minLength: 0)
@@ -167,7 +167,7 @@ struct Notice<Actions: View>: View {
                     Text(title).font(.headline)
                     message
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(Color.secondaryText)
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }
@@ -295,4 +295,10 @@ func openAppSettings() {
     if let url = URL(string: UIApplication.openSettingsURLString) {
         UIApplication.shared.open(url)
     }
+}
+
+extension Color {
+    /// Secondary text with at least 6:1 contrast in both themes (the system secondary
+    /// label falls just under the 4.5:1 target on grouped backgrounds).
+    static let secondaryText = Color("SecondaryText")
 }

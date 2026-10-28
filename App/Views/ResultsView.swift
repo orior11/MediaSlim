@@ -47,7 +47,7 @@ struct ResultsView: View {
             if let summary, summary.bytesBefore > 0 {
                 Text("\(Formatters.percent(summary.savedFraction)) smaller on average for the files that were shrunk.")
                     .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Color.secondaryText)
             }
         }
     }

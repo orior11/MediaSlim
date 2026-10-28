@@ -101,7 +101,7 @@ struct HomeView: View {
                 .accessibilityAddTraits(.isHeader)
             Text("You'll see an estimate before anything changes.")
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Color.secondaryText)
 
             SourceButton(systemImage: "photo.on.rectangle.angled", title: "Whole Library",
                          detail: "Every photo and video") {
@@ -166,7 +166,7 @@ private struct SourceRow: View {
                 .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 2) {
                 Text(title).font(.headline)
-                Text(detail).font(.subheadline).foregroundStyle(.secondary)
+                Text(detail).font(.subheadline).foregroundStyle(Color.secondaryText)
             }
             Spacer(minLength: 0)
             Image(systemName: "chevron.forward")
@@ -205,7 +205,7 @@ struct AlbumPickerView: View {
                                 Text(album.title)
                                 Spacer()
                                 Text(album.itemCount, format: .number)
-                                    .foregroundStyle(.secondary)
+                                    .foregroundStyle(Color.secondaryText)
                                     .monospacedDigit()
                             }
                             .contentShape(Rectangle())
