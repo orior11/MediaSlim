@@ -1,0 +1,92 @@
+name: MediaSlim
+options:
+  bundleIdPrefix: com.mediaslim
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    DEVELOPMENT_TEAM: ""   # set your Apple Developer Team ID here for device builds
+
+packages:
+  MediaSlimKit:
+    path: Packages/MediaSlimKit
+
+targets:
+  MediaSlim:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+    dependencies:
+      - package: MediaSlimKit
+        product: MediaSlimCore
+      - package: MediaSlimKit
+        product: MediaSlimEngine
+      - package: MediaSlimKit
+        product: MediaSlimLibrary
+      - package: MediaSlimKit
+        product: MediaSlimPipeline
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: MediaSlim
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, he]
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        NSPhotoLibraryUsageDescription: "MediaSlim reads your photos and videos to save smaller copies of them on this iPhone. Nothing leaves your device."
+        NSPhotoLibraryAddUsageDescription: "MediaSlim saves the smaller copies of your photos and videos to your library."
+        PHPhotoLibraryPreventAutomaticLimitedAccessAlert: true
+        UIBackgroundModes: [processing]
+        BGTaskSchedulerPermittedIdentifiers: [com.mediaslim.app.processing]
+        ITSAppUsesNonExemptEncryption: false
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mediaslim.app
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_PREVIEWS: YES
+
+  MediaSlimUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: AppUITests
+    dependencies:
+      - target: MediaSlim
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mediaslim.app.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_STRICT_CONCURRENCY: minimal
+
+schemes:
+  MediaSlim:
+    build:
+      targets:
+        MediaSlim: all
+        MediaSlimUITests: [test]
+    test:
+      targets:
+        - MediaSlimUITests
+      language: en

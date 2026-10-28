@@ -1,0 +1,1698 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ saved from %lld items": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נחסכו %1$@ מ‑%2$lld פריטים"
+          }
+        }
+      }
+    },
+    "%@ saved so far": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נחסכו עד עכשיו %@"
+          }
+        }
+      }
+    },
+    "%@ smaller on average for the files that were shrunk.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בממוצע, הקבצים שכווצו קטנים ב‑%@."
+          }
+        }
+      }
+    },
+    "%@, %lld items": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$lld פריטים"
+          }
+        }
+      }
+    },
+    "%lld compressed copies are safely in your library. Delete the originals to free %@.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld עותקים מכווצים שמורים בבטחה בספרייה. מחיקת המקורות תפנה %2$@."
+          }
+        }
+      }
+    },
+    "%lld items were not processed yet. Nothing was lost.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld פריטים עדיין לא עובדו. שום דבר לא אבד."
+          }
+        }
+      }
+    },
+    "%lld items will be left as they are": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld פריטים יישארו כמו שהם"
+          }
+        }
+      }
+    },
+    "%lld left as they were": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld נשארו כמו שהיו"
+          }
+        }
+      }
+    },
+    "%lld of %lld": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld מתוך %2$lld"
+          }
+        }
+      }
+    },
+    "%lld of %lld done. %@ saved so far.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld מתוך %2$lld הושלמו. נחסכו עד עכשיו %3$@."
+          }
+        }
+      }
+    },
+    "%lld of %lld done. %@ saved.": {
+      "comment": "Spoken progress update",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld מתוך %2$lld הושלמו. נחסכו %3$@."
+          }
+        }
+      }
+    },
+    "%lld originals can be restored from Recently Deleted in Photos for 30 days. After that, iOS removes them for good.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפשר לשחזר %lld מקורות מ'נמחקו לאחרונה' באפליקציית התמונות במשך 30 יום. אחרי זה iOS מוחק אותם לצמיתות."
+          }
+        }
+      }
+    },
+    "%lld photos and %lld videos, %@ in total.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld תמונות ו‑%2$lld סרטונים, %3$@ בסך הכול."
+          }
+        }
+      }
+    },
+    "Albums": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אלבומים"
+          }
+        }
+      }
+    },
+    "Albums you create in Photos appear here.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אלבומים שיצרתם באפליקציית התמונות יופיעו כאן."
+          }
+        }
+      }
+    },
+    "All done": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הכול הושלם"
+          }
+        }
+      }
+    },
+    "All processing happens on this iPhone.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כל העיבוד מתבצע באייפון הזה."
+          }
+        }
+      }
+    },
+    "Allow Photo Access": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אישור גישה לתמונות"
+          }
+        }
+      }
+    },
+    "Already compressed": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כבר דחוסים"
+          }
+        }
+      }
+    },
+    "Already shrunk by MediaSlim": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כבר כווצו ב‑MediaSlim"
+          }
+        }
+      }
+    },
+    "Already small": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כבר קטנים"
+          }
+        }
+      }
+    },
+    "An Album": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אלבום"
+          }
+        }
+      }
+    },
+    "Balanced": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מאוזן"
+          }
+        }
+      }
+    },
+    "Both versions kept": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שתי הגרסאות נשמרו"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ביטול"
+          }
+        }
+      }
+    },
+    "Choose Items": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחירת פריטים"
+          }
+        }
+      }
+    },
+    "Choose what happens to the originals first.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קודם יש לבחור מה יקרה למקורות."
+          }
+        }
+      }
+    },
+    "Choose what happens to the originals to continue.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כדי להמשיך, יש לבחור מה יקרה למקורות."
+          }
+        }
+      }
+    },
+    "Cinematic videos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סרטוני מצב קולנועי"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המשך"
+          }
+        }
+      }
+    },
+    "Continue while charging": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המשך בזמן טעינה"
+          }
+        }
+      }
+    },
+    "Couldn't process": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לא עובדו"
+          }
+        }
+      }
+    },
+    "Couldn't read the library": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לא ניתן לקרוא את הספרייה"
+          }
+        }
+      }
+    },
+    "Default quality": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "איכות ברירת מחדל"
+          }
+        }
+      }
+    },
+    "Delete Originals": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחיקת המקורות"
+          }
+        }
+      }
+    },
+    "Delete Processed Originals": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחיקת המקורות שעובדו"
+          }
+        }
+      }
+    },
+    "Delete the originals processed so far to make room. You'll confirm in the next step.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחקו את המקורות שכבר עובדו כדי לפנות מקום. האישור יגיע בשלב הבא."
+          }
+        }
+      }
+    },
+    "Deleted originals stay in Recently Deleted in Photos for 30 days.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מקורות שנמחקו נשארים ב'נמחקו לאחרונה' באפליקציית התמונות 30 יום."
+          }
+        }
+      }
+    },
+    "Depth for Apple Vision Pro would be lost.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העומק עבור Apple Vision Pro היה הולך לאיבוד."
+          }
+        }
+      }
+    },
+    "Discard": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ביטול הסבב"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סיום"
+          }
+        }
+      }
+    },
+    "Done. Saved %@.": {
+      "comment": "Spoken when a run ends",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הסתיים. נחסכו %@."
+          }
+        }
+      }
+    },
+    "Download from iCloud when needed": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הורדה מ‑iCloud בעת הצורך"
+          }
+        }
+      }
+    },
+    "Edited in Photos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נערכו באפליקציית התמונות"
+          }
+        }
+      }
+    },
+    "Erase": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחיקה"
+          }
+        }
+      }
+    },
+    "Erase App Records": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחיקת נתוני האפליקציה"
+          }
+        }
+      }
+    },
+    "Erase app records?": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "למחוק את נתוני האפליקציה?"
+          }
+        }
+      }
+    },
+    "Erasing removes MediaSlim's history and settings. Your photos and videos are not touched.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המחיקה מסירה את ההיסטוריה וההגדרות של MediaSlim. התמונות והסרטונים שלך לא נפגעים."
+          }
+        }
+      }
+    },
+    "Estimated space to free": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הערכת המקום שיתפנה"
+          }
+        }
+      }
+    },
+    "Every photo and video": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כל התמונות והסרטונים"
+          }
+        }
+      }
+    },
+    "Everything stays on your iPhone": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הכול נשאר באייפון שלך"
+          }
+        }
+      }
+    },
+    "Files already done stay done. Nothing is lost.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קבצים שכבר טופלו נשארים כך. שום דבר לא אובד."
+          }
+        }
+      }
+    },
+    "Files are replaced only after the smaller copy is saved and checked.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קבצים מוחלפים רק אחרי שהעותק הקטן נשמר ונבדק."
+          }
+        }
+      }
+    },
+    "Finished runs appear here.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סבבים שהסתיימו יופיעו כאן."
+          }
+        }
+      }
+    },
+    "Free up space without losing quality": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לפנות מקום בלי לוותר על איכות"
+          }
+        }
+      }
+    },
+    "Frees the most space. Small differences may show when zooming in.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מפנה הכי הרבה מקום. בהגדלה ייתכנו הבדלים קטנים."
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "היסטוריה"
+          }
+        }
+      }
+    },
+    "If an original is stored only in iCloud, the Photos app downloads it first. MediaSlim itself never connects to the internet.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אם מקור שמור רק ב‑iCloud, אפליקציית התמונות מורידה אותו קודם. MediaSlim עצמה אף פעם לא מתחברת לאינטרנט."
+          }
+        }
+      }
+    },
+    "If you leave the app during a run, iOS can finish it later while your iPhone charges. Originals are deleted only after you confirm.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אם יוצאים מהאפליקציה באמצע סבב, iOS יכול לסיים אותו מאוחר יותר בזמן שהאייפון נטען. מקורות נמחקים רק אחרי אישור."
+          }
+        }
+      }
+    },
+    "Include": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לכלול"
+          }
+        }
+      }
+    },
+    "Keep Both": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שמירת שניהם"
+          }
+        }
+      }
+    },
+    "Keep Going": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "להמשיך"
+          }
+        }
+      }
+    },
+    "Keep MediaSlim open, or connect a charger and it continues in the background.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "השאירו את MediaSlim פתוחה, או חברו מטען והעבודה תימשך ברקע."
+          }
+        }
+      }
+    },
+    "Keep both": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שמירת שניהם"
+          }
+        }
+      }
+    },
+    "Last time": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בפעם הקודמת"
+          }
+        }
+      }
+    },
+    "Left as is": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נשארו כמו שהם"
+          }
+        }
+      }
+    },
+    "Less than a tenth of the size could be saved at your quality setting.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בהגדרת האיכות שנבחרה אפשר היה לחסוך פחות מעשירית מהגודל."
+          }
+        }
+      }
+    },
+    "Limited access": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גישה מוגבלת"
+          }
+        }
+      }
+    },
+    "Little to gain": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חיסכון זניח"
+          }
+        }
+      }
+    },
+    "Live Photos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תמונות Live"
+          }
+        }
+      }
+    },
+    "Loading albums…": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "טוען אלבומים…"
+          }
+        }
+      }
+    },
+    "Looking through your library…": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סורק את הספרייה…"
+          }
+        }
+      }
+    },
+    "Low Power Mode is on. Turn it off or connect a charger to continue.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מצב חיסכון בסוללה פעיל. כדי להמשיך, כבו אותו או חברו מטען."
+          }
+        }
+      }
+    },
+    "Maximum quality": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "איכות מרבית"
+          }
+        }
+      }
+    },
+    "Maximum savings": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חיסכון מרבי"
+          }
+        }
+      }
+    },
+    "MediaSlim": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim"
+          }
+        }
+      }
+    },
+    "MediaSlim asks for full access because replacing a file means reading the original and then deleting it. You can also share only some items.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim מבקשת גישה מלאה, כי החלפת קובץ דורשת לקרוא את המקור ואחר כך למחוק אותו. אפשר גם לשתף רק חלק מהפריטים."
+          }
+        }
+      }
+    },
+    "MediaSlim can't see your photos. Allow access in Settings to continue.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim לא רואה את התמונות שלך. כדי להמשיך יש לאשר גישה בהגדרות."
+          }
+        }
+      }
+    },
+    "MediaSlim needs access to your photos. You can allow it in Settings.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim צריכה גישה לתמונות שלך. אפשר לאשר אותה בהגדרות."
+          }
+        }
+      }
+    },
+    "MediaSlim re-saves your photos and videos more efficiently. They look the same and take about half the space.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim שומרת מחדש את התמונות והסרטונים שלך בצורה יעילה יותר. הם נראים אותו דבר ותופסים בערך חצי מקום."
+          }
+        }
+      }
+    },
+    "MediaSlim sees only the items you shared with it. You can share more in Settings.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim רואה רק את הפריטים ששיתפתם איתה. אפשר לשתף עוד בהגדרות."
+          }
+        }
+      }
+    },
+    "No Albums": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין אלבומים"
+          }
+        }
+      }
+    },
+    "No History Yet": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין עדיין היסטוריה"
+          }
+        }
+      }
+    },
+    "No accounts, servers, ads or analytics.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בלי חשבונות, שרתים, פרסומות או ניתוח נתונים."
+          }
+        }
+      }
+    },
+    "No uploads, no accounts, no tracking. MediaSlim has no servers.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בלי העלאות, בלי חשבונות ובלי מעקב. ל‑MediaSlim אין שרתים."
+          }
+        }
+      }
+    },
+    "No visible difference when viewing normally. Recommended.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין הבדל נראה בצפייה רגילה. מומלץ."
+          }
+        }
+      }
+    },
+    "Nothing changes without you": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שום דבר לא משתנה בלי האישור שלכם"
+          }
+        }
+      }
+    },
+    "Nothing to shrink here": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין כאן מה לכווץ"
+          }
+        }
+      }
+    },
+    "Only HEIC, JPEG, PNG and standard video are handled.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "רק HEIC,‏ JPEG,‏ PNG וסרטונים רגילים מטופלים."
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פתיחת ההגדרות"
+          }
+        }
+      }
+    },
+    "Originals": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המקורות"
+          }
+        }
+      }
+    },
+    "Originals can be restored": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפשר לשחזר את המקורות"
+          }
+        }
+      }
+    },
+    "Originals kept": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המקורות נשמרו"
+          }
+        }
+      }
+    },
+    "Originals moved to Recently Deleted": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המקורות הועברו ל'נמחקו לאחרונה'"
+          }
+        }
+      }
+    },
+    "Originals not deleted": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המקורות לא נמחקו"
+          }
+        }
+      }
+    },
+    "Other file formats": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פורמטים אחרים"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "השהיה"
+          }
+        }
+      }
+    },
+    "Paused": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מושהה"
+          }
+        }
+      }
+    },
+    "Paused by you.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הושהה ידנית."
+          }
+        }
+      }
+    },
+    "Paused.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מושהה."
+          }
+        }
+      }
+    },
+    "Photo access is off": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגישה לתמונות כבויה"
+          }
+        }
+      }
+    },
+    "Photo access needed": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נדרשת גישה לתמונות"
+          }
+        }
+      }
+    },
+    "Photos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תמונות"
+          }
+        }
+      }
+    },
+    "Pick one album": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחירת אלבום אחד"
+          }
+        }
+      }
+    },
+    "Practically identical to the original, even when zoomed in. Frees less space.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כמעט זהה למקור, גם בהגדלה. מפנה פחות מקום."
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פרטיות"
+          }
+        }
+      }
+    },
+    "Progress": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התקדמות"
+          }
+        }
+      }
+    },
+    "Quality": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "איכות"
+          }
+        }
+      }
+    },
+    "RAW files are kept as they are for editing.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קובצי RAW נשמרים כמו שהם לצורך עריכה."
+          }
+        }
+      }
+    },
+    "RAW photos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תמונות RAW"
+          }
+        }
+      }
+    },
+    "Ready to free space": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מוכן לפנות מקום"
+          }
+        }
+      }
+    },
+    "Recommended": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מומלץ"
+          }
+        }
+      }
+    },
+    "Replace originals": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "החלפת המקורות"
+          }
+        }
+      }
+    },
+    "Replacing them would remove your edit history.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "החלפה שלהם תמחק את היסטוריית העריכה."
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המשך"
+          }
+        }
+      }
+    },
+    "Resumed.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ממשיך."
+          }
+        }
+      }
+    },
+    "Review": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סקירה"
+          }
+        }
+      }
+    },
+    "Select specific photos and videos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחירה של תמונות וסרטונים מסוימים"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגדרות"
+          }
+        }
+      }
+    },
+    "Shared or synced items": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פריטים משותפים או מסונכרנים"
+          }
+        }
+      }
+    },
+    "Shows the system permission dialog.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מציג את חלון ההרשאה של המערכת."
+          }
+        }
+      }
+    },
+    "Shrinking": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מכווץ"
+          }
+        }
+      }
+    },
+    "Shrinking them would free almost nothing.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כיווץ שלהם כמעט לא יפנה מקום."
+          }
+        }
+      }
+    },
+    "Shrinking twice would lower quality.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כיווץ כפול יפגע באיכות."
+          }
+        }
+      }
+    },
+    "Shrunk": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כווצו"
+          }
+        }
+      }
+    },
+    "Slow-motion timing would be lost.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תזמון ההילוך האיטי היה הולך לאיבוד."
+          }
+        }
+      }
+    },
+    "Slow-motion videos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סרטוני הילוך איטי"
+          }
+        }
+      }
+    },
+    "Smaller copies save": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העותקים הקטנים חוסכים"
+          }
+        }
+      }
+    },
+    "Some originals couldn't be deleted. Nothing was lost; you can try again from the home screen.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חלק מהמקורות לא נמחקו. שום דבר לא אבד; אפשר לנסות שוב מהמסך הראשי."
+          }
+        }
+      }
+    },
+    "Something went wrong while reading your library. Nothing was changed.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "משהו השתבש בקריאת הספרייה. שום דבר לא שונה."
+          }
+        }
+      }
+    },
+    "Space freed": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מקום שפונה"
+          }
+        }
+      }
+    },
+    "Space freed so far": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מקום שפונה עד עכשיו"
+          }
+        }
+      }
+    },
+    "Space is almost full. Delete the originals processed so far to continue.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האחסון כמעט מלא. כדי להמשיך, מחקו את המקורות שכבר עובדו."
+          }
+        }
+      }
+    },
+    "Space is running low": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האחסון עומד להיגמר"
+          }
+        }
+      }
+    },
+    "Spatial photos and videos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תמונות וסרטונים מרחביים"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התחלה"
+          }
+        }
+      }
+    },
+    "Started. Large files go first.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התחלנו. קבצים גדולים קודם."
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עצירה"
+          }
+        }
+      }
+    },
+    "Stop now?": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לעצור עכשיו?"
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נעצר"
+          }
+        }
+      }
+    },
+    "Stored only in iCloud": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שמורים רק ב‑iCloud"
+          }
+        }
+      }
+    },
+    "That album or item is no longer in your library.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האלבום או הפריט כבר לא נמצאים בספרייה."
+          }
+        }
+      }
+    },
+    "The editable focus track would be lost.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מסלול הפוקוס הניתן לעריכה היה הולך לאיבוד."
+          }
+        }
+      }
+    },
+    "The photo and its short video must stay linked. Support is planned.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התמונה והסרטון הקצר שלה חייבים להישאר מקושרים. התמיכה מתוכננת."
+          }
+        }
+      }
+    },
+    "The real result is measured for every file. Anything that doesn't pass the quality check is left untouched.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התוצאה האמיתית נמדדת לכל קובץ. קובץ שלא עובר את בדיקת האיכות נשאר כמו שהוא."
+          }
+        }
+      }
+    },
+    "The smaller copies are in the MediaSlim album. Your originals are untouched.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העותקים הקטנים נמצאים באלבום MediaSlim. המקורות לא שונו."
+          }
+        }
+      }
+    },
+    "The smaller copy is added to the MediaSlim album and nothing is deleted. Space is freed only when you delete originals yourself.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העותק הקטן מתווסף לאלבום MediaSlim ושום דבר לא נמחק. מקום יתפנה רק כשמוחקים את המקורות ידנית."
+          }
+        }
+      }
+    },
+    "The smaller copy takes the original's place, with the same date, location and albums. After you confirm, originals move to Recently Deleted for 30 days.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העותק הקטן נכנס במקום המקור, עם אותו תאריך, מיקום ואלבומים. אחרי אישור, המקורות עוברים ל'נמחקו לאחרונה' ל‑30 יום."
+          }
+        }
+      }
+    },
+    "These belong to a shared album or another device.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הם שייכים לאלבום משותף או למכשיר אחר."
+          }
+        }
+      }
+    },
+    "These items are already efficient, or are types MediaSlim leaves as they are.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הפריטים האלה כבר יעילים, או מסוגים ש‑MediaSlim משאירה כמו שהם."
+          }
+        }
+      }
+    },
+    "These items are stored only in iCloud.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הפריטים האלה שמורים רק ב‑iCloud."
+          }
+        }
+      }
+    },
+    "Turn on access to all photos for MediaSlim in Settings.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "יש להפעיל בהגדרות גישה לכל התמונות עבור MediaSlim."
+          }
+        }
+      }
+    },
+    "Turn on iCloud downloads in Settings to include them.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כדי לכלול אותם, יש להפעיל בהגדרות הורדה מ‑iCloud."
+          }
+        }
+      }
+    },
+    "Unfinished run": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סבב שלא הסתיים"
+          }
+        }
+      }
+    },
+    "Usually received through a messaging app. Shrinking again would lower quality.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בדרך כלל התקבלו באפליקציית הודעות. כיווץ נוסף יפגע באיכות."
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גרסה"
+          }
+        }
+      }
+    },
+    "Videos": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סרטונים"
+          }
+        }
+      }
+    },
+    "Waiting for your confirmation": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ממתין לאישור"
+          }
+        }
+      }
+    },
+    "What should MediaSlim shrink?": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מה לכווץ?"
+          }
+        }
+      }
+    },
+    "Whole Library": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כל הספרייה"
+          }
+        }
+      }
+    },
+    "Working files are encrypted and deleted after each item.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קובצי עבודה מוצפנים ונמחקים אחרי כל פריט."
+          }
+        }
+      }
+    },
+    "Working on a photo": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מעבד תמונה"
+          }
+        }
+      }
+    },
+    "Working on a video": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מעבד סרטון"
+          }
+        }
+      }
+    },
+    "You choose what to shrink, and you confirm before any original is deleted.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אתם בוחרים מה לכווץ ומאשרים לפני שמקור כלשהו נמחק."
+          }
+        }
+      }
+    },
+    "You chose not to delete %lld originals, so no space was freed yet. Both versions are in your library.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחרתם לא למחוק %lld מקורות, ולכן עוד לא התפנה מקום. שתי הגרסאות נמצאות בספרייה."
+          }
+        }
+      }
+    },
+    "You'll see an estimate before anything changes.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לפני שמשהו משתנה תוצג הערכה."
+          }
+        }
+      }
+    },
+    "Your iPhone is warm. MediaSlim continues when it cools down.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האייפון חם. MediaSlim תמשיך כשהוא יתקרר."
+          }
+        }
+      }
+    },
+    "Your photos and videos are not touched.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "התמונות והסרטונים שלך לא נפגעים."
+          }
+        }
+      }
+    },
+    "iOS asks you to approve deleting the originals.": {
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS יבקש לאשר את מחיקת המקורות."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

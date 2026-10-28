@@ -1,0 +1,57 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim saves the smaller copies of your photos and videos to your library."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim שומרת בספרייה את העותקים הקטנים של התמונות והסרטונים שלך."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim reads your photos and videos to save smaller copies of them on this iPhone. Nothing leaves your device."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MediaSlim קוראת את התמונות והסרטונים שלך כדי לשמור מהם עותקים קטנים יותר באייפון הזה. שום דבר לא יוצא מהמכשיר."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
